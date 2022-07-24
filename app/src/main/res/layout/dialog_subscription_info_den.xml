@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#EF596F"
+        android:padding="16dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"
+            android:text="@string/erro_ao_registar"
+            android:textColor="@color/white"
+            app:drawableStartCompat="@drawable/ic_baseline_info_24"
+            app:drawableTint="@color/white"
+            android:drawablePadding="16dp"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/n_o_foi_poss_vel_registar_sua_inscri_o_por_n_o_ter_aprovado_as_cadeiras_precentes_verifique_a_tabela_de_preced_ncias_e_selecione_apenas_as_cadeiras_autorizadas_para_prosseguir_com_a_inscri_o"
+        android:textSize="16sp"
+        android:layout_margin="16dp"
+        android:textAlignment="center"
+        android:textColor="@color/black" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/close"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#EF596F"
+        android:text="@string/close"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"/>
+</LinearLayout>
